@@ -4,3 +4,9 @@ from django.http import HttpResponse
 # Create your views here.
 def home(requets):
     return HttpResponse('HOME')
+
+def contato(request):
+    return HttpResponse('CONTATO')
+
+def sobre(request):
+    return HttpResponse('SOBRE')
