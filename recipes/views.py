@@ -5,3 +5,6 @@ from django.http import HttpResponse
 def home(requets):
     return render(requets, 'recipes/pages/home.html')
 
+def recipe(requets,id):
+    return render(requets, 'recipes/pages/recipe-view.html')
+
